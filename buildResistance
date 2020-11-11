@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo Building read_resistance program
+g++ AnalogIn.cpp read_resistance.cpp -o read_resistance
+echo Done !
